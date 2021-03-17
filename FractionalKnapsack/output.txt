@@ -1,0 +1,14 @@
+Number of items: 3
+Capacity of bag: 50
+
+Sorted as per ratio of cost to weight :
+[ w: 10  c: 60  r: 6 ]
+[ w: 20  c: 80  r: 4 ]
+[ w: 40  c: 120  r: 3 ]
+
+  Weight	Cost	Max Fraction used
+	10		 60			1
+	20		 80			1
+	40		 120			0.5
+
+ Max possible profit : 200

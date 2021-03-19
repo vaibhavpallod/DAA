@@ -1,0 +1,7 @@
+	int //main(){
+	float xyz;// gfggdfgdfg
+	xyz++;
+	scanf("%d",&xyz);
+xyz=3;
+return 0;
+}

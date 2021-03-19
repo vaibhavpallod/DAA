@@ -1,0 +1,45 @@
+Lexene	Type	Index	Token
+int	KWT	9	int
+float	KWT	6	float
+xyz	SYM	0	ID0
+xyz	SYM	1	ID0
+++	KWT	0	++
+;	KWT	1	;
+scanf	SYM	1	ID1
+(	KWT	2	(
+%d	LIT	0	LT0
+,	KWT	3	,
+&	KWT	4	&
+xyz	SYM	2	ID1
+)	KWT	5	)
+;	KWT	6	;
+xyz	SYM	2	ID1
+=	KWT	7	=
+3	LIT	1	LT1
+;	KWT	8	;
+return	KWT	10	return
+0	LIT	2	LT2
+;	KWT	9	;
+}	KWT	10	}
+
+-----------------------------------------
+
+
+-----------------------------------------
+
+SYMBOL TABLE
+ _ _ _ _ _ _ _ _ _ _ _ _
+| Sym	Pos	Addr	|
+| scanf	1	0	| 
+| xyz	0	0	| 
+|_ _ _ _ _ _ _ _ _ _ _ _|
+
+LITERAL TABLE
+ _ _ _ _ _ _ _ _ _ _ _ _
+| Lit	Pos	Addr	|
+| %d	0	0	| 
+| 3	1	0	| 
+| 0	2	0	| 
+|_ _ _ _ _ _ _ _ _ _ _ _|
+-----------------------------------------
+
